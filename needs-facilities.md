@@ -4,7 +4,7 @@ Scenario: Report visitor trends during a week of operation
 
   Given: the history of visitor count of atleast one week
   
-  When: Facilities Manager clicks on the "Generate Report" Button
+  When: FM clicks on the "Generate Report" Button
   
   Then: Generate a report
   
