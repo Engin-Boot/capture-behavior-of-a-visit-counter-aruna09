@@ -6,7 +6,7 @@ Scenario: Report visitor trends during a week of operation
   
   When: Facilities Manager clicks on the "Generate Report" Button
   
-  Then: Generate a report with a graph with a tally of the type of vehicle
+  Then: Generate a report
   
 Scenario: Alert when seating capacity is full
 
