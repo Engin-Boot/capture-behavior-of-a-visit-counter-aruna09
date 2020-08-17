@@ -6,19 +6,19 @@ Scenario: Report visitor trends during a week of operation
   
   When: Facilities Manager clicks on the "Generate Report" Button
   
-  Then: Generate a report with a graph/pie chart with a tally of the type of vehicle
+  Then: Generate a report with a graph with a tally of the type of vehicle
   
 Scenario: Alert when seating capacity is full
 
   Given: the seating capacity is full
   
-  When: Facilities Manager tries to allocate a parking space/seat to an incoming visitor.
+  When: FM tries to allocate a parking space to a visitor.
   
   Then: Create an Alert to notify the manager with an appropriate message
   
 Scenario: Show me location of empty parking spaces/seating
 
-  Given: the system is updated as to the status(empty/filled) and the location of the parking space/seating
+  Given: the system is updated as to the status(empty/filled)
   
   When: FM tries to allocate a parking space/seat to an incoming visitor.
   
