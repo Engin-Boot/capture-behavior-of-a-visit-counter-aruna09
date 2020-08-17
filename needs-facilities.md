@@ -2,7 +2,7 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given: the history of visitor count of atleast one week
+  Given: history of visitor count of atleast one week
   
   When: FM clicks on the "Generate Report" Button
   
@@ -22,4 +22,4 @@ Scenario: Show me location of empty parking spaces/seating
   
   When: FM tries to allocate a parking space/seat to an incoming visitor.
   
-  Then: Indicate empty spots with a Green colour
+  Then: mark empty spots with a Green colour
