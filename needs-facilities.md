@@ -18,7 +18,7 @@ Scenario: Alert when seating capacity is full
   
 Scenario: Show me location of empty parking spaces/seating
 
-  Given: the system is updated as to the status(empty/filled)
+  Given: The status(empty/filled) is available
   
   When: FM tries to allocate a parking space/seat to an incoming visitor.
   
