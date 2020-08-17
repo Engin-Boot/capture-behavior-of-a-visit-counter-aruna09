@@ -10,7 +10,7 @@ Scenario: Show patient visits during working days and holidays
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
-  Given: we have the number of specialists visiting on a particular day
+  Given: we have the number of specialists visiting on a day
   
   When: Director wants to find the number of empty spaces
   
