@@ -6,7 +6,7 @@ Scenario: Show patient visits during working days and holidays
   
   When: Director clicks on the "Show count" button
   
-  Then: Display the total count of patients under two headings: Working days and holidays
+  Then: Display the total count of patients under Working days and holidays
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
